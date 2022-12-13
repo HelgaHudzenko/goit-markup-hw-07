@@ -1,20 +1,18 @@
 <!DOCTYPE html>
 <html lang="uk">
-
 <head>
 	<meta charset="UTF-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<title>Web Studio</title>
+	<!--Font-->
 	<link rel="preconnect" href="https://fonts.googleapis.com"/>
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-	<link
-		href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
-		rel="stylesheet" />
-	<title>Web Studio</title>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"/>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
 	<link rel="stylesheet" href="css/main.min.css" />
 	<link rel="stylesheet" href="images/modal/symbol-defs.svg" />
-	<!--Font-->
+	<!-- Header section -->
 </head>
 <body>
 	<header class="header">
@@ -23,13 +21,13 @@
 				<nav class="header-nav">
 					<a href="./index.html" class="logo logo-bl"><span class="logo-blue">Web</span>Studio</a>
 					<ul class="site-nav list">
-						<li class="head-link">
+						<li class="head__link">
 							<a class="studio" href="./index.html">Студія</a>
 						</li>
-						<li class="head-link">
+						<li class="head__link">
 							<a class="current is-active" href="./portfolio.html">Портфоліо</a>
 						</li>
-						<li class="head-link">
+						<li class="head__link">
 							<a class="" href="#">Контакти</a>
 						</li>
 					</ul>
@@ -37,7 +35,7 @@
 				<ul class="header-contacts list">
 					<li>										
 						<a class="link" href="mailto:info@devstudio.com">
-							<svg class="icon-header" 
+							<svg class="icon__header" 
 							width="16" height="12">
 							<use href="images/icons.svg#icon-mail"></use>
 							</svg>info@devstudio.com
@@ -45,7 +43,7 @@
 					</li>
 					<li>			
 						<a class="link" href="tel:+380961111111">
-							<svg class="icon-header" 
+							<svg class="icon__header" 
 							width="16" height="12">
 							<use href="images/icons.svg#icon-phone"></use>
 							</svg>
@@ -233,17 +231,17 @@
 				<div class="footer__inner">
 					<a href="./index.html" class="logo footer__logo logo-wh">
 						<span class="logo-blue">Web</span>Studio</a>
-					<address class="footer-contacts">
-						<a href="#" class="footer-adress">м. Київ, пр-т Лесі Українки, 26</a>
-						<a href="mailto:info@devstudio.com" class="cont">info@devstudio.com</a>
-						<a href="tel:+380961111111" class="cont">+38 096 111 11 11</a>
+					<address class="footer__contacts">
+						<a  href="#" class="footer__adress">м. Київ, пр-т Лесі Українки, 26</a>
+						<a  href="mailto:info@devstudio.com" class="cont">info@devstudio.com</a>
+						<a  href="tel:+380961111111" class="cont">+38 096 111 11 11</a>
 					</address>
 				</div>
 				<div class="footer__inner-soc">
-					<p class="footer-name-p">Приєднуйтесь</p>
+					<p class="footer__name-p">Приєднуйтесь</p>
 					<ul class="footer__soc-row">
 						<li>
-							<a  class="footer__social" href="#">
+							<a class="footer__social" href="#">
 								<svg class="icon__footer" 
 									width="20" height="20">
 									<use href="images/icons.svg#icon-instagramwh"></use>
@@ -251,7 +249,7 @@
 							</a>
 						</li>
 						<li>
-							<a  class="footer__social" href="#">
+							<a class="footer__social" href="#">
 								<svg class="icon__footer" 
 									width="20" height="20">
 									<use href="images/icons.svg#icon-facebookwh"></use>
@@ -259,7 +257,7 @@
 							</a>
 						</li>
 						<li>
-							<a  class="footer__social" href="#">
+							<a class="footer__social" href="#">
 								<svg class="icon__footer" 
 									width="20" height="20">
 									<use href="images/icons.svg#icon-twitterwh"></use>
@@ -267,7 +265,7 @@
 							</a>
 						</li>
 						<li>
-							<a  class="footer__social" href="#">
+							<a class="footer__social" href="#">
 								<svg class="icon__footer" 
 									width="20" height="20">
 									<use href="images/icons.svg#icon-linkedinwh"></use>
@@ -276,15 +274,15 @@
 						</li>
 					</ul>
 				</div>
-				<div class="footer_form">
-					<p class="footer-send-p">Підпишіться на розсилку</p>
-					<form class="footer-form-send" >
-						<input class="input-field-send" type="email" name="user-mail"
+				<div class="footer__form">
+					<p class="footer__send-p">Підпишіться на розсилку</p>
+					<form class="footer__form-send" >
+						<input class="input__field-send" type="email" name="user-mail"
 								required 
 								placeholder="E-mail"/>
-						<button class="footer-send-btn" type="submit">
+						<button class="footer__send-btn" type="submit">
 							Підписатися 
-							<svg class="icon-send" width="20" height="20">
+							<svg class="icon__send" width="20" height="20">
 								<use href="./images/icons.svg#icon-teleg-wb" ></use>
 							</svg>
 						</button>

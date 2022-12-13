@@ -880,7 +880,7 @@ input::-webkit-inner-spin-button {
 .modal {
   position: absolute;
   z-index: 99;
-  top: 70px;
+  top: 90px;
   left: 30%;
   width: 528px;
   min-height: 561px;
