@@ -109,32 +109,29 @@
 	right: 10px;
 	transform: translateY(-50%);
 	display: block;
-  }
+}
   
   
-  .register-form-heading {
+.register-form-heading {
 	display: block;
 	margin-bottom: 10px;
 	font-size: 14px;
-  }
+}
   
-  .register-form-message {
-	
-  }
-  
-  .register-form-message::placeholder {
+   
+.register-form-message::placeholder {
 	font-size: 14px;
-  }
+}
   
-  .register-form__agreement {
+.register-form__agreement {
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	gap: 10px;
 	margin-top: 20px;
-  }
+}
   
-  .register-form-desc {
+.register-form-desc {
 	font-size: 14px;
 	user-select: none;
 }
@@ -167,4 +164,12 @@
 
 .register-form__checkbox:checked + .register-form__agreement {
 	color: #2196f3;
+}
+
+.register-form__checkbox:checked + .register-form__icons .icon__unchecked {
+	opacity: 0;
+}
+
+.register-form__checkbox:checked + .register-form__icons .icon__checked {
+	opacity: 1;
 }

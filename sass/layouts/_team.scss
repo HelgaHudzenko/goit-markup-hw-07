@@ -1,16 +1,3 @@
-.section.team {
-	background-color: var(--third-bg-cl);
-}
-
-.section-title {
-	font-weight: 700;
-	font-size: 36px;
-	line-height: calc(42/36);
-	text-align: center;
-	letter-spacing: 0.03em;
-	color: var(--second-txt-cl);
-}
-
 .container__team {
 	display: flex;
 	justify-content: space-between;
@@ -82,9 +69,6 @@
 	transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.icon__team {
-	fill: #AFB1B8;
-}
 
 .team__icon-media:hover {
 	background-color: #2196F3;

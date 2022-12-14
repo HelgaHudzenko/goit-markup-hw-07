@@ -69,3 +69,17 @@
 	background-color: #2196f3;
 	transform: translateY(100%);
 }
+
+.projects-card__title {
+	font-size: 18px;
+	line-height: calc(36/18);
+	letter-spacing: 0.04em;
+	color: var(--second-txt-cl);
+}
+
+.projects-card__text {
+	font-size: 16px;
+	line-height: calc(30/16);
+	letter-spacing: 0.03em;
+	color: var(--main-txt-cl);
+}

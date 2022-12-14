@@ -44,7 +44,10 @@
 	background-color: #2196F3;
 	fill: #FFFFFF;
 	
-}
+	.register-form__checkbox:checked + .register-form__icons .icon__checked {
+		opacity: 1;
+	}
+	}
 
 .team__icon-media:hover svg {
 	fill: #FFFFFF;
@@ -62,18 +65,26 @@
 .icon__checked {
 	opacity: 0;
 	fill: #2196f3;
-	transition: opacity 400ms ease;
+	transition: opacity 400ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .icon__checked {
 	opacity: 1;
 }
 
-.icon__unchecked {
-	transition: opacity 400ms ease;
-}
 
 .icon__unchecked {
 	opacity: 0;
 }
+ 
+.icon__unchecked {
+	transition: opacity 400ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+  
+.register-form__input:focus ~ .register-form__icon {
+	fill: #2196f3;
+}
 
+.register-form__checkbox:checked + .register-form__icons .icon__unchecked {
+	opacity: 0;
+}

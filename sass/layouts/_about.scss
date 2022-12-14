@@ -13,6 +13,23 @@
 	margin-top: 15px;
 }
 
+.feature-list__title {
+	font-weight: 700;
+	font-size: 14px;
+	line-height: calc(16/14);
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+	color: var(--second-txt-cl);
+}
+
+.feature-list__text {
+	font-size: 14px;
+	line-height: calc(24/14);
+	letter-spacing: 0.03em;
+	color: var(--main-txt-cl);
+}
+
+
 .about__icon-overlay {
 	height: 120px;
 	background: #F5F4FA;

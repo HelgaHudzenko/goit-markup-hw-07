@@ -18,9 +18,14 @@ a {
 	color: inherit;
 }
 
-.list {
-	list-style: none;
+ul,
+li {
+	display: block;
+	margin: 0;
+	padding: 0;
 }
+
+
 
 .link {
     color: grey;
